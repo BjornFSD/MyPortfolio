@@ -1,0 +1,20 @@
+@import "./Styles/Sections.scss";
+@import "./Styles/About.scss";
+@import "./Styles/Home.scss";
+@import "./Styles/Projects.scss";
+@import "./Styles/Contact.scss";
+@import "./Styles/Skills.scss";
+
+.App {
+  height: 100vh;
+  //background-color: #000000;
+}
+.welcomeAnimation {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+}
+.test {
+  color: white;
+}
