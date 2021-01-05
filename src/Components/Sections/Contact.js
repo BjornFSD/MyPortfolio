@@ -42,12 +42,20 @@ function Contact() {
             </div>
             <div className="text">Michał Dulko</div>
           </a>
-          <a href="" className="contact_email-links--element">
+          <div
+            className="contact_email-links--element"
+            onclick={() => {
+              window.scrollTo({
+                top: document.querySelector(".skills").offsetTop,
+                behavior: "smooth",
+              });
+            }}
+          >
             <div className="icon">
               <Mail />
             </div>
             <div className="text">michal.dulko.12@gmail.com</div>
-          </a>
+          </div>
         </div>
       </div>
       <div className="stopka">
