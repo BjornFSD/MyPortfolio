@@ -24,9 +24,9 @@ function About() {
               became my passion.
             </p>
             <p className="about_box-me--desc_bottom">
-              I would like also about begin traveller, most recently i think
-              about it even more. I would like to visit Norway, USA, Spain and
-              Iceland for now, but that list will still growing.
+              I would like also begin traveller, most recently i think about it
+              even more. I would like to visit Norway, USA, Spain and Iceland
+              for now, but that list will still growing.
             </p>
           </div>
         </div>

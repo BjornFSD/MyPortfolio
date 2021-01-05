@@ -19,7 +19,7 @@
       flex-flow: column wrap;
       flex-basis: 16%;
       margin: 20px 20px;
-      // border: 1px solid black;
+      // border-bottom: 5px solid goldenrod;
       &--img {
         height: 200px;
         img {
@@ -31,7 +31,20 @@
         color: whitesmoke;
         h3 {
           margin: 0;
+          padding-bottom: 5px;
         }
+      }
+      &::after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 5px;
+        background: goldenrod;
+        transition: width 0.3s;
+      }
+      &:hover::after {
+        width: 100%;
+        //transition: width .3s;
       }
     }
   }
