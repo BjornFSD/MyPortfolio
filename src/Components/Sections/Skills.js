@@ -41,10 +41,6 @@ function Skills() {
           design layouts. I love making animations with <b>GSAP</b> library and
           I track my changes with <b>GIT</b>.
         </p>
-        <p>
-          I also like making json files or arrays with objects etc. and mapping
-          them.
-        </p>
       </div>
     </div>
   );

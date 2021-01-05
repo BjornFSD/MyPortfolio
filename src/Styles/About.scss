@@ -31,7 +31,41 @@
         width: 750px;
         font-size: 20px;
         &_more {
+          &-list {
+            list-style: none;
+          }
         }
+      }
+    }
+  }
+  &_hobby {
+    display: flex;
+    align-self: center;
+    &-box {
+      display: flex;
+      flex-flow: row wrap;
+
+      width: 1200px;
+      &--item {
+        background-color: #000000;
+        color: white;
+        flex-basis: 14%;
+        margin: 10px 10px;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25),
+          -4px -4px 4px rgba(0, 0, 0, 0.25), 4px -4px 4px rgba(0, 0, 0, 0.25),
+          -4px 4px 4px rgba(0, 0, 0, 0.25);
+        border: 3px solid black;
+        padding: 8px 20px;
+        font-size: 18px;
+        transition: 0.5s linear;
+        &:hover {
+          color: goldenrod;
+          border: 3px solid goldenrod;
+        }
+      }
+      .title {
+        background-color: rgb(41, 41, 41);
+        border: 3px solid rgb(41, 41, 41);
       }
     }
   }

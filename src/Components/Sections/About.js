@@ -14,10 +14,10 @@ function About() {
           </div>
           <div className="about_box-me--desc">
             <p>
-              Hi, My name is Michał Dulko and I am a Front Developer with basics
-              of design. I started learning programming half year ago, I spent
-              this whole time on learning, and in half of this time it became my
-              passion.
+              Hi, My name is Michał Dulko I am 22 years old and I am a Front
+              Developer with basics of design. I started learning programming
+              half year ago, I spent this whole time on learning, and in half of
+              this time it became my passion.
             </p>
 
             <div className="about_box-me--desc_more">
@@ -34,7 +34,16 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="about_box-hobby"></div>
+      </div>
+      <div className="about_hobby">
+        <div className="about_hobby-box">
+          <div className="about_hobby-box--item title">Hobbies:</div>
+          <div className="about_hobby-box--item">Netflix</div>
+          <div className="about_hobby-box--item">Witcher Saga</div>
+          <div className="about_hobby-box--item">Harry Potter</div>
+          <div className="about_hobby-box--item">Games</div>
+          <div className="about_hobby-box--item">Football</div>
+        </div>
       </div>
     </div>
   );
