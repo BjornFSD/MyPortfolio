@@ -30,10 +30,24 @@
         padding: 50px 30px;
         width: 750px;
         font-size: 20px;
-        &_more {
-          &-list {
-            list-style: none;
-          }
+        font-weight: lighter;
+        &_top {
+          margin: 0;
+          margin-bottom: 10px;
+          font-size: 32px;
+          font-weight: bold;
+        }
+        &_middle {
+          margin: 0;
+          margin-bottom: 10px;
+          font-size: 24px;
+          font-weight: 300;
+        }
+        &_bottom {
+          margin: 0;
+          margin-bottom: 10px;
+          font-size: 20px;
+          font-weight: 200;
         }
       }
     }
@@ -64,8 +78,14 @@
         }
       }
       .title {
-        background-color: rgb(41, 41, 41);
-        border: 3px solid rgb(41, 41, 41);
+        background-color: goldenrod;
+        border: 3px solid black;
+        color: black;
+        font-weight: bold;
+        box-shadow: 4px 4px 4px rgba(218, 165, 32, 0.25),
+          -4px -4px 4px rgba(218, 165, 32, 0.25),
+          4px -4px 4px rgba(218, 165, 32, 0.25),
+          -4px 4px 4px rgba(218, 165, 32, 0.25);
       }
     }
   }
