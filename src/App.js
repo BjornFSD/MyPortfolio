@@ -31,7 +31,6 @@ function App() {
 
     const tl = gsap.timeline({ defaults: { ease: "power3.inOut" } });
     //const repeat = gsap.timeline({ repeat: 5 });
-
     tl.fromTo(
       WelcomePage,
       { y: -500, scale: 1, transformOrigin: "50% 50%" },
@@ -46,7 +45,52 @@ function App() {
     const AboutMeTexts = elements.getElementById("AboutMeTexts");
     const OldPageWider = elements.getElementById("OldPageWider");
     const AboutMeLinks = elements.getElementById("AboutMeLinks");
+    const AboutPage = elements.getElementById("AboutPage");
+    const HomePage = elements.getElementById("HomePage");
+    const ProjectsPage = elements.getElementById("ProjectsPage");
+    const SkillsPage = elements.getElementById("SkillsPage");
+    const ContactPage = elements.getElementById("ContactPage");
     const Skip = elements.getElementById("SkipAnimation");
+
+    AboutPage.addEventListener("click", () => {
+      window.scrollTo({
+        top: document.querySelector(".about").offsetTop,
+        behavior: "smooth",
+      });
+      setisAnimationOn(!isAnimationOn);
+    });
+
+    ProjectsPage.addEventListener("click", () => {
+      window.scrollTo({
+        top: document.querySelector(".projects").offsetTop,
+        behavior: "smooth",
+      });
+      setisAnimationOn(!isAnimationOn);
+    });
+
+    HomePage.addEventListener("click", () => {
+      window.scrollTo({
+        top: document.querySelector(".home").offsetTop,
+        behavior: "smooth",
+      });
+      setisAnimationOn(!isAnimationOn);
+    });
+
+    SkillsPage.addEventListener("click", () => {
+      window.scrollTo({
+        top: document.querySelector(".skills").offsetTop,
+        behavior: "smooth",
+      });
+      setisAnimationOn(!isAnimationOn);
+    });
+
+    ContactPage.addEventListener("click", () => {
+      window.scrollTo({
+        top: document.querySelector(".contact").offsetTop,
+        behavior: "smooth",
+      });
+      setisAnimationOn(!isAnimationOn);
+    });
 
     document.getElementById("Page").addEventListener("click", NextAnimation);
     Skip.addEventListener("click", SkipAnimation);
@@ -67,7 +111,7 @@ function App() {
       })
         .to(AboutMePage, {
           y: 0,
-          duration: 5,
+          duration: 4,
           ease: "bounce.out",
           delay: -2,
         })

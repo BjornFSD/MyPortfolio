@@ -1,0 +1,156 @@
+.nav {
+  position: fixed;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: rgba(68, 68, 68, 0.3);
+  z-index: 10000;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-variant: small-caps;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+
+  &_name {
+    display: flex;
+    justify-self: flex-start;
+    margin: 0;
+    padding: 0 3rem;
+    font-size: 20px;
+  }
+  &_ul {
+    margin: 0;
+    height: 60px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+    &-li {
+      opacity: 1;
+      padding: 0 2rem;
+      line-height: 5vh;
+      margin: 0;
+      cursor: pointer;
+    }
+    &-li:hover {
+      color: goldenrod;
+    }
+  }
+}
+@media only screen and (max-width: 1600px) {
+  .nav {
+    font-size: 18px;
+    &_name {
+      padding: 0 3rem;
+      font-size: 24px;
+    }
+    &_ul {
+      height: 50px;
+      &-li {
+        padding: 0 1rem;
+        line-height: 5vh;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .nav {
+    font-size: 16px;
+    &_name {
+      padding: 0 2rem;
+      font-size: 22px;
+    }
+    &_ul {
+      height: 50px;
+      &-li {
+        padding: 0 1rem;
+        line-height: 5vh;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .nav {
+    font-size: 14px;
+    &_name {
+      padding: 0 1.5rem;
+      font-size: 20px;
+    }
+    &_ul {
+      height: 50px;
+      &-li {
+        padding: 0 1rem;
+        line-height: 5vh;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 500px) {
+  .nav {
+    font-size: 10px;
+    &_name {
+      padding: 0 0.5rem;
+      font-size: 14px;
+    }
+    &_ul {
+      height: 40px;
+      &-li {
+        padding: 0 0.3rem;
+        line-height: 5vh;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 375px) {
+  .nav {
+    font-size: 8px;
+    &_name {
+      padding: 0 0.5rem;
+      font-size: 14px;
+    }
+    &_ul {
+      height: 40px;
+      &-li {
+        padding: 0 0.2rem;
+        line-height: 5vh;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 320px) {
+  .nav {
+    font-size: 6px;
+    &_name {
+      padding: 0 0.3rem;
+      font-size: 7px;
+    }
+    &_ul {
+      height: 30px;
+      &-li {
+        padding: 0 0.2rem;
+        line-height: 5vh;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 300px) {
+  .nav {
+    font-size: 6px;
+    &_name {
+      padding: 0 0.3rem;
+      font-size: 7px;
+    }
+    &_ul {
+      height: 30px;
+      &-li {
+        padding: 0 0.2rem;
+        line-height: 5vh;
+      }
+    }
+  }
+}

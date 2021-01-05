@@ -1,13 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
 @import "./Styles/Sections.scss";
 @import "./Styles/About.scss";
 @import "./Styles/Home.scss";
 @import "./Styles/Projects.scss";
 @import "./Styles/Contact.scss";
 @import "./Styles/Skills.scss";
+@import "./Styles/Nav.scss";
 
 .App {
   height: 100vh;
-  //background-color: #000000;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 .welcomeAnimation {
   display: none;

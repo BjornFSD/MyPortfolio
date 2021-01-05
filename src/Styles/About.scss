@@ -1,12 +1,38 @@
 .about {
-  height: 100vh;
-}
-#TextAbout {
-  background: linear-gradient(
-    280.71deg,
-    #000000 28.66%,
-    #202200 57.89%,
-    #ebff00 59.24%,
-    #ebff00 88.22%
-  );
+  display: flex;
+  flex-flow: column wrap;
+
+  background: rgba(177, 178, 180, 0.88);
+  padding: 65px 0;
+  &_box {
+    display: flex;
+    margin: 30px 0;
+    align-self: center;
+    &-me {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: center;
+      width: 1200px;
+      &--img {
+        width: 300px;
+        background-color: #000;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25),
+          -4px -4px 4px rgba(0, 0, 0, 0.25), 4px -4px 4px rgba(0, 0, 0, 0.25),
+          -4px 4px 4px rgba(0, 0, 0, 0.25);
+        border: 3px solid black;
+        img {
+          width: 100%;
+        }
+      }
+      &--desc {
+        display: flex;
+        flex-flow: column wrap;
+        padding: 50px 30px;
+        width: 750px;
+        font-size: 20px;
+        &_more {
+        }
+      }
+    }
+  }
 }

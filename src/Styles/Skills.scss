@@ -1,5 +1,47 @@
 .skills {
   display: flex;
-  justify-content: flex-end;
-  height: 100vh;
+  flex-flow: column wrap;
+  background-color: #7b7b7b;
+  padding: 65px 0;
+  &_img {
+    align-self: flex-end;
+  }
+  &_box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+    width: 1000px;
+    margin: 50px 0;
+    &-item {
+      display: flex;
+      flex-flow: column wrap;
+      flex-basis: 16%;
+      margin: 20px 20px;
+      // border: 1px solid black;
+      &--img {
+        height: 200px;
+        img {
+          width: 100%;
+        }
+      }
+      &--name {
+        align-self: center;
+        color: whitesmoke;
+        h3 {
+          margin: 0;
+        }
+      }
+    }
+  }
+  &_desc {
+    align-self: center;
+    width: 1000px;
+    color: white;
+    font-size: 18px;
+    b {
+      color: rgb(238, 202, 111);
+    }
+  }
 }
