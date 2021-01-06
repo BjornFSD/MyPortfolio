@@ -44,9 +44,9 @@ function Contact() {
           </a>
           <div
             className="contact_email-links--element"
-            onclick={() => {
+            onClick={() => {
               window.scrollTo({
-                top: document.querySelector(".skills").offsetTop,
+                top: document.querySelector(".contact").offsetTop,
                 behavior: "smooth",
               });
             }}

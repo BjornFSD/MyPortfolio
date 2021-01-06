@@ -90,3 +90,304 @@
     }
   }
 }
+@media only screen and (max-width: 1600px) {
+  .about {
+    padding: 50px 0;
+    &_img {
+      img {
+        height: 60px;
+      }
+    }
+    &_box {
+      margin: 30px 0;
+      &-me {
+        width: 1000px;
+        &--img {
+          width: 260px;
+          img {
+            width: 100%;
+          }
+        }
+        &--desc {
+          padding: 50px 30px;
+          width: 750px;
+          font-size: 20px;
+          &_top {
+            margin-bottom: 10px;
+            font-size: 30px;
+          }
+          &_middle {
+            margin-bottom: 10px;
+            font-size: 22px;
+          }
+          &_bottom {
+            margin-bottom: 10px;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+    &_hobby {
+      &-box {
+        width: 1000px;
+        &--item {
+          flex-basis: 18%;
+          margin: 10px 10px;
+          padding: 8px 20px;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .about {
+    padding: 50px 0;
+    &_img {
+      img {
+        height: 50px;
+      }
+    }
+    &_box {
+      margin: 30px 0;
+      &-me {
+        width: 800px;
+        &--img {
+          width: 230px;
+          img {
+            width: 100%;
+          }
+        }
+        &--desc {
+          padding: 10px 30px;
+          width: 700px;
+          font-size: 20px;
+          &_top {
+            margin-bottom: 10px;
+            font-size: 26px;
+          }
+          &_middle {
+            margin-bottom: 10px;
+            font-size: 18px;
+          }
+          &_bottom {
+            margin-bottom: 10px;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+    &_hobby {
+      &-box {
+        justify-content: center;
+        width: 800px;
+        &--item {
+          flex-basis: 25%;
+          margin: 10px 10px;
+          padding: 8px 20px;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .about {
+    padding: 50px 0;
+    &_img {
+      img {
+        height: 44px;
+      }
+    }
+    &_box {
+      margin: 30px 0;
+      &-me {
+        width: 700px;
+        &--img {
+          width: 190px;
+          img {
+            width: 100%;
+          }
+        }
+        &--desc {
+          padding: 10px 30px 10px 0px;
+          width: 550px;
+          font-size: 20px;
+          &_top {
+            margin-bottom: 10px;
+            font-size: 22px;
+          }
+          &_middle {
+            margin-bottom: 10px;
+            font-size: 14px;
+          }
+          &_bottom {
+            margin-bottom: 10px;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+    &_hobby {
+      &-box {
+        width: 700px;
+        &--item {
+          flex-basis: 23%;
+          margin: 10px 10px;
+          padding: 8px 20px;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 426px) {
+  .about {
+    padding: 40px 0;
+    &_img {
+      img {
+        height: 32px;
+      }
+    }
+    &_box {
+      margin: 30px 0;
+      &-me {
+        width: 400px;
+        &--img {
+          width: 190px;
+          img {
+            width: 100%;
+          }
+        }
+        &--desc {
+          padding: 10px 30px 10px 0px;
+          width: 300px;
+          font-size: 20px;
+          &_top {
+            margin-bottom: 10px;
+            font-size: 18px;
+          }
+          &_middle {
+            margin-bottom: 10px;
+            font-size: 10px;
+          }
+          &_bottom {
+            margin-bottom: 10px;
+            font-size: 8px;
+          }
+        }
+      }
+    }
+    &_hobby {
+      &-box {
+        width: 400px;
+        &--item {
+          flex-basis: 33%;
+          margin: 10px 10px;
+          padding: 8px 12px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 375px) {
+  .about {
+    padding: 40px 0;
+    &_img {
+      img {
+        height: 28px;
+      }
+    }
+    &_box {
+      margin: 30px 0;
+      &-me {
+        width: 350px;
+        &--img {
+          width: 190px;
+          img {
+            width: 100%;
+          }
+        }
+        &--desc {
+          padding: 10px 30px 10px 0px;
+          width: 250px;
+          font-size: 20px;
+          &_top {
+            margin-bottom: 10px;
+            font-size: 18px;
+          }
+          &_middle {
+            margin-bottom: 10px;
+            font-size: 10px;
+          }
+          &_bottom {
+            margin-bottom: 10px;
+            font-size: 8px;
+          }
+        }
+      }
+    }
+    &_hobby {
+      &-box {
+        width: 350px;
+        &--item {
+          flex-basis: 35%;
+          margin: 10px 10px;
+          padding: 8px 12px;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 375px) {
+  .about {
+    padding: 30px 0;
+    &_img {
+      img {
+        height: 28px;
+      }
+    }
+    &_box {
+      margin: 30px 0;
+      &-me {
+        width: 300px;
+        &--img {
+          width: 170px;
+          img {
+            width: 100%;
+          }
+        }
+        &--desc {
+          padding: 10px 30px 10px 0px;
+          width: 220px;
+          font-size: 20px;
+          &_top {
+            margin-bottom: 5px;
+            font-size: 16px;
+          }
+          &_middle {
+            margin-bottom: 5px;
+            font-size: 8px;
+          }
+          &_bottom {
+            margin-bottom: 5px;
+            font-size: 7px;
+          }
+        }
+      }
+    }
+    &_hobby {
+      &-box {
+        width: 300px;
+        &--item {
+          flex-basis: 32%;
+          margin: 10px 10px;
+          padding: 8px 12px;
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}

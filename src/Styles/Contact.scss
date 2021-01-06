@@ -49,3 +49,176 @@
     padding: 5px 0;
   }
 }
+@media only screen and (max-width: 1600px) {
+  .contact {
+    &_email {
+      width: 700px;
+      margin: 40px 0;
+      &-text {
+        font-size: 28px;
+        padding: 22px;
+      }
+      &-links {
+        width: 100%;
+        &--element {
+          font-size: 18px;
+          .icon {
+            margin: 15px 15px 15px 130px;
+            svg {
+              width: 42px;
+              height: 42px;
+            }
+          }
+        }
+      }
+    }
+    .stopka {
+      padding: 5px 0;
+    }
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .contact {
+    &_email {
+      width: 500px;
+      margin: 40px 0;
+      &-text {
+        font-size: 28px;
+        padding: 22px;
+      }
+      &-links {
+        width: 100%;
+        &--element {
+          font-size: 16px;
+          .icon {
+            margin: 15px 15px 15px 130px;
+            svg {
+              width: 42px;
+              height: 42px;
+            }
+          }
+        }
+      }
+    }
+    .stopka {
+      padding: 5px 0;
+      font-size: 14px;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .contact {
+    &_email {
+      width: 500px;
+      margin: 40px 0;
+      &-text {
+        font-size: 24px;
+        padding: 22px;
+      }
+      &-links {
+        width: 100%;
+        &--element {
+          font-size: 16px;
+          .icon {
+            margin: 15px 15px 15px 130px;
+            svg {
+              width: 36px;
+              height: 36px;
+            }
+          }
+        }
+      }
+    }
+    .stopka {
+      padding: 5px 0;
+      font-size: 14px;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .contact {
+    &_email {
+      width: 500px;
+      margin: 40px 0;
+      &-text {
+        font-size: 24px;
+        padding: 22px;
+      }
+      &-links {
+        width: 100%;
+        &--element {
+          font-size: 16px;
+          .icon {
+            margin: 15px 15px 15px 130px;
+            svg {
+              width: 36px;
+              height: 36px;
+            }
+          }
+        }
+      }
+    }
+    .stopka {
+      padding: 5px 0;
+      font-size: 14px;
+    }
+  }
+}
+@media only screen and (max-width: 426px) {
+  .contact {
+    &_email {
+      width: 280px;
+      margin: 30px 0;
+      &-text {
+        font-size: 16px;
+        padding: 22px;
+      }
+      &-links {
+        width: 100%;
+        &--element {
+          font-size: 12px;
+          .icon {
+            margin: 15px 15px 15px 30px;
+            svg {
+              width: 24px;
+              height: 24px;
+            }
+          }
+        }
+      }
+    }
+    .stopka {
+      padding: 5px 0;
+      font-size: 10px;
+    }
+  }
+}
+@media only screen and (max-width: 320px) {
+  .contact {
+    &_email {
+      width: 300px;
+      margin: 20px 0;
+      &-text {
+        font-size: 16px;
+        padding: 22px;
+      }
+      &-links {
+        width: 100%;
+        &--element {
+          font-size: 12px;
+          .icon {
+            margin: 15px 15px 15px 30px;
+            svg {
+              width: 24px;
+              height: 24px;
+            }
+          }
+        }
+      }
+    }
+    .stopka {
+      padding: 5px 0;
+      font-size: 8px;
+    }
+  }
+}
