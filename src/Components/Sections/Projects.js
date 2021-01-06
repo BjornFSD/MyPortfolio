@@ -13,8 +13,8 @@ function Projects() {
       website: "https://fashionhousesite.web.app/",
     },
     {
-      src: "./img/architectSiteImg.png",
-      title: "02. Architect's portfolio",
+      src: "./img/architectSiteImgg.png",
+      title: "02. Interior Designer portfolio",
       github: "https://github.com/mrmisiex/AleksandraCV",
       website: "https://aleksandraklinskacv.web.app/",
     },

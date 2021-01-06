@@ -17,13 +17,7 @@ function App() {
   const refToTop = useRef(null);
   const [isAnimationActive, setisAnimationActive] = useState(false);
   const [isAnimationOn, setisAnimationOn] = useState(true);
-  const NextAnimation = () => {
-    setisAnimationActive(true);
-    console.log(isAnimationActive);
-  };
-  const SkipAnimation = () => {
-    setisAnimationOn(!isAnimationOn);
-  };
+
   // const { y: pageYOffset } = useWindowScroll();
   useEffect(() => {
     const [elements] = wrapper.current.children;
@@ -41,12 +35,14 @@ function App() {
       { y: -500, scale: 1, transformOrigin: "50% 50%" },
       { y: 0, duration: 3, autoAlpha: 1, ease: "bounce.out" }
     );
-  }, []);
+    const NextAnimation = () => {
+      setisAnimationActive(true);
+      console.log(isAnimationActive);
+    };
+    const SkipAnimation = () => {
+      setisAnimationOn(!isAnimationOn);
+    };
 
-  useEffect(() => {
-    const [elements] = wrapper.current.children;
-    const WelcomePage = elements.getElementById("WelcomePage");
-    const AboutMePage = elements.getElementById("AboutMePage");
     const AboutMeTexts = elements.getElementById("AboutMeTexts");
     const OldPageWider = elements.getElementById("OldPageWider");
     const AboutMeLinks = elements.getElementById("AboutMeLinks");
@@ -105,15 +101,16 @@ function App() {
     });
     gsap.set(OldPageWider, { autoAlpha: 1 });
 
-    const tl = gsap.timeline({ defaults: { ease: "power3.inOut" } });
+    const tl2 = gsap.timeline({ defaults: { ease: "power3.inOut" } });
 
     if (isAnimationActive === true) {
-      tl.to(WelcomePage, {
-        y: 900,
-        duration: 2.5,
-        ease: "power3.in",
-        scale: 0.3,
-      })
+      tl2
+        .to(WelcomePage, {
+          y: 900,
+          duration: 2.5,
+          ease: "power3.in",
+          scale: 0.3,
+        })
         .to(AboutMePage, {
           y: 0,
           duration: 4,
@@ -129,7 +126,7 @@ function App() {
         .to(AboutMeLinks.children, { duration: 3, autoAlpha: 1, stagger: 0.4 });
     } else {
     }
-  }, [isAnimationActive]);
+  }, [isAnimationActive, isAnimationOn]);
 
   return (
     <div ref={refToTop} className="App">
