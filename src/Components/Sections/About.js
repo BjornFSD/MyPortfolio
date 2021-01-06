@@ -19,14 +19,13 @@ function About() {
             </p>
             <p className="about_box-me--desc_bottom">
               My name is Michał Dulko I am 22 years old. I'm currently based in
-              Gdansk, Poland. I started learning programming half year ago, I
-              spent this whole time on learning, and in half of this time it
-              became my passion.
+              Gdansk, Poland. I started learning programming some time ago. I
+              spent this whole time learning and discovered my passion in it.
             </p>
             <p className="about_box-me--desc_bottom">
-              I would like begin traveller, most recently i think about it even
-              more. I would like to visit Norway, USA, Spain and Iceland for
-              now, but that list will still growing.
+              I like traveling, so it fits even better. I would like to visit
+              Norway, USA, Spain and Iceland for now, but that list will always
+              grow.
             </p>
           </div>
         </div>

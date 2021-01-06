@@ -16,10 +16,13 @@
   font-family: "Montserrat", sans-serif;
 }
 .welcomeAnimation {
-  display: none;
   position: fixed;
+  display: flex;
+  justify-content: center;
   width: 100%;
   height: 100vh;
+  z-index: 20;
+  background-color: black;
 }
 .test {
   color: white;

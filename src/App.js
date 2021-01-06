@@ -2,6 +2,11 @@ import "./App.scss";
 import React, { useRef, useEffect, useState } from "react";
 // import { useWindowScroll } from "react-use";
 import { ReactComponent as Slide } from "./First.svg";
+import { ReactComponent as Slide1400 } from "./First1400x800.svg";
+import { ReactComponent as Slide1024 } from "./First1024x600.svg";
+import { ReactComponent as Slide768 } from "./First768x600.svg";
+import { ReactComponent as Slide430 } from "./First430x630.svg";
+import { ReactComponent as Slide375 } from "./First375x500.svg";
 import { gsap } from "gsap";
 import Sections from "./Components/Sections";
 
@@ -130,7 +135,20 @@ function App() {
     <div ref={refToTop} className="App">
       {isAnimationOn ? (
         <div className="welcomeAnimation" ref={wrapper}>
-          <Slide />
+          {window.innerWidth < 375 ? (
+            <Slide375 />
+          ) : window.innerWidth < 430 ? (
+            <Slide430 />
+          ) : window.innerWidth < 768 ? (
+            <Slide768 />
+          ) : window.innerWidth < 1024 ? (
+            <Slide1024 />
+          ) : window.innerWidth < 1400 ? (
+            <Slide1400 />
+          ) : (
+            <Slide />
+          )}
+          {/* <Slide /> */}
         </div>
       ) : null}
       <Sections />

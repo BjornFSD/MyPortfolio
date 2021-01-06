@@ -34,12 +34,11 @@ function Skills() {
       <div className="skills_box">{showIcons}</div>
       <div className="skills_desc">
         <p>
-          Here is my list of libraries and frameworks im currently using, still
-          learning. My main technology is <b>React</b> and I'm looking forward
-          to learn <b>React Native</b>, I know basics of <b>Redux</b>, but i
-          prefer keeping state with <b>useState</b>. I'm using <b>Figma</b> to
-          design layouts. I love making animations with <b>GSAP</b> library and
-          I track my changes with <b>GIT</b>.
+          Here is my list of libraries/frameworks im currently using and
+          learning. I’m most proficient in <b>React.js</b> and looking forward
+          to learn <b>React Native</b>, I know basics of <b>Redux</b> and using{" "}
+          <b>Figma</b> to design layouts. I love making animations with{" "}
+          <b>GSAP</b> and track my changes with <b>GIT</b>.
         </p>
       </div>
     </div>
