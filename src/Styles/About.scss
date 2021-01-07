@@ -255,12 +255,13 @@
         width: 400px;
         &--img {
           width: 190px;
+          margin-right: 20px;
           img {
             width: 100%;
           }
         }
         &--desc {
-          padding: 10px 30px 10px 0px;
+          padding: 10px 10px 10px 20px;
           width: 300px;
           font-size: 20px;
           &_top {
@@ -355,12 +356,13 @@
         width: 300px;
         &--img {
           width: 170px;
+          margin-right: 10px;
           img {
             width: 100%;
           }
         }
         &--desc {
-          padding: 10px 30px 10px 0px;
+          padding: 10px 10px 10px 10px;
           width: 220px;
           font-size: 20px;
           &_top {
