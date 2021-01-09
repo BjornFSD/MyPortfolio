@@ -19,7 +19,7 @@ function Home() {
     // const Steps4 = elements.getElementById("Steps4");
 
     const duration = 1;
-    const stagger = 0.4;
+    const stagger = 0.2;
 
     gsap.set([...Steps1.children], { autoAlpha: 0 });
     const tl = gsap.timeline({
@@ -37,7 +37,7 @@ function Home() {
           duration: duration,
           autoAlpha: 0,
           stagger: stagger,
-          delay: -30,
+          delay: -20,
         })
         .repeat(-1);
     } else {
@@ -51,11 +51,11 @@ function Home() {
           duration: duration,
           autoAlpha: 0,
           stagger: stagger,
-          delay: -45,
+          delay: -22,
         })
         .repeat(-1);
     }
-  }, [window.innerWidth]);
+  });
 
   return (
     <div className="home">

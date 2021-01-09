@@ -5,8 +5,7 @@
   margin: 0;
   background-color: #7b7b7b;
   &_animation {
-    width: 100vw;
-    height: 100vh;
+    margin: 0 auto;
   }
   &_name {
     z-index: 5;
@@ -18,6 +17,14 @@
     text-align: center;
     font-family: "Iceberg";
     font-size: 34px;
+  }
+}
+@media only screen and (min-width: 1922px) {
+  .home {
+    &_animation {
+      margin-top: 64px;
+      width: max-content;
+    }
   }
 }
 @media only screen and (max-width: 1600px) {
